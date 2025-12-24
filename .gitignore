@@ -1,0 +1,29 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Rider project files
+.idea/
+
+# repo hygiene
+*.log
+*.user
+*.suo
+*.swp
+*.bak
+*.tmp
+thumbs.db
+.DS_Store
