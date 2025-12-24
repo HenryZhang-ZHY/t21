@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="T21.Core.Test\T21.Core.Test.csproj" />
+  <Project Path="T21.Core\T21.Core.csproj" />
   <Project Path="T21.Server/T21.Server.csproj" />
 </Solution>
