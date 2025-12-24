@@ -8,9 +8,9 @@ namespace t21.Layouts
 {
     public partial class BasicLayout : LayoutComponentBase, IDisposable
     {
-        private MenuDataItem[] _menuData;
+        private MenuDataItem[] _menuData = Array.Empty<MenuDataItem>();
 
-        [Inject] private ReuseTabsService TabService { get; set; }
+        [Inject] private ReuseTabsService TabService { get; set; } = default!;
 
         protected override async Task OnInitializedAsync()
         {
